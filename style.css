@@ -21,7 +21,8 @@ main {
 
 }
 .container{
-  
+  border: solid gray 1px;
+
 }
 .rowOne .card{
   display:inline-block;
