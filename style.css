@@ -21,9 +21,18 @@ main {
 
 }
 .container{
-
+  
 }
-.row{
+.rowOne .card{
+  display:inline-block;
+}
+.rowTwo .card{
+  display:inline-block;
+}
+.rowThree .card{
+  display:inline-block;
+}
+.rowFour .card{
   display:inline-block;
 }
 .card{
