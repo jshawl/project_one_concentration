@@ -1,6 +1,7 @@
 Five user stories for my concentration project
 
-As the admin, I want to present six pairs of "face-down cards" to begin the game.
+As the admin, I want to present 12 face-down cards (six pairs of matching cards)
+to begin the game.
 
 As a player, I want to click on a "card" to change it from "face-down" to "face-up"
 so that I can see what its value is.
