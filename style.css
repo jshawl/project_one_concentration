@@ -1,0 +1,59 @@
+body{
+  background-color: lavender;
+}
+header{
+  background-color: teal;
+}
+h1{
+  font-family: Arial;
+  font-size: 20;
+}
+p{
+  font-family: Arial;
+  font-size: 14;
+
+}
+button{
+
+}
+main {
+  border: solid gray 2px;
+
+}
+.container{
+
+}
+.row{
+  display:inline-block;
+}
+.card{
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  border: 1px solid blue;
+  background-color:white;
+}
+.blue{
+  background-color: blue;
+}
+.red{
+  background-color:red;
+}
+.green{
+  background-color:green;
+}
+.orange{
+  background-color:orange;
+}
+.lime{
+  background-color: lime;
+}
+.olive{
+  background-color:olive;
+}
+.brown{
+  background-color: brown;
+}
+.tan{
+  background-color: tan;
+}
