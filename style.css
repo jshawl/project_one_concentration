@@ -25,6 +25,15 @@ main {
   overflow: auto;
 }
 .card{
+  background-color:white;
+
+}
+
+.white{
+  background-color:white;
+}
+.blue{
+  background-color: blue;
   border: blue solid 1px;
   width:20%;
   height:40px;
@@ -33,30 +42,81 @@ main {
   margin-top:5px;
   margin-right:5px;
   padding-top:20px;
-  background-color:white;
-}
-
-.blue{
-  background-color: blue;
 }
 .red{
   background-color:red;
+  border: blue solid 1px;
+  width:20%;
+  height:40px;
+  float:left;
+  text-align:center;
+  margin-top:5px;
+  margin-right:5px;
+  padding-top:20px;
 }
 .green{
   background-color:green;
+  border: blue solid 1px;
+  width:20%;
+  height:40px;
+  float:left;
+  text-align:center;
+  margin-top:5px;
+  margin-right:5px;
+  padding-top:20px;
 }
 .orange{
   background-color:orange;
+  border: blue solid 1px;
+  width:20%;
+  height:40px;
+  float:left;
+  text-align:center;
+  margin-top:5px;
+  margin-right:5px;
+  padding-top:20px;
 }
 .lime{
   background-color: lime;
+  border: blue solid 1px;
+  width:20%;
+  height:40px;
+  float:left;
+  text-align:center;
+  margin-top:5px;
+  margin-right:5px;
+  padding-top:20px;
 }
 .olive{
   background-color:olive;
+  border: blue solid 1px;
+  width:20%;
+  height:40px;
+  float:left;
+  text-align:center;
+  margin-top:5px;
+  margin-right:5px;
+  padding-top:20px;
 }
 .brown{
   background-color: brown;
+  border: blue solid 1px;
+  width:20%;
+  height:40px;
+  float:left;
+  text-align:center;
+  margin-top:5px;
+  margin-right:5px;
+  padding-top:20px;
 }
 .tan{
   background-color: tan;
+  border: blue solid 1px;
+  width:20%;
+  height:40px;
+  float:left;
+  text-align:center;
+  margin-top:5px;
+  margin-right:5px;
+  padding-top:20px;
 }
