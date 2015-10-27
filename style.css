@@ -24,14 +24,7 @@ main {
   /*height?*/
   overflow: auto;
 }
-.card{
-  background-color:white;
 
-}
-
-.white{
-  background-color:white;
-}
 .blue{
   background-color: blue;
   border: blue solid 1px;
@@ -99,8 +92,7 @@ main {
   padding-top:20px;
 }
 .brown{
-  background-color: brown;
-  border: blue solid 1px;
+  background-color: brown;border: blue solid 1px;
   width:20%;
   height:40px;
   float:left;
@@ -110,8 +102,7 @@ main {
   padding-top:20px;
 }
 .tan{
-  background-color: tan;
-  border: blue solid 1px;
+  background-color: tan;border: blue solid 1px;
   width:20%;
   height:40px;
   float:left;
@@ -119,4 +110,7 @@ main {
   margin-top:5px;
   margin-right:5px;
   padding-top:20px;
+}
+.card{
+  background-color:white;
 }
