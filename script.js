@@ -26,5 +26,11 @@ function flipCard(evt){
 //alert 'winner, game over' when 8 pairs have been made
 
 //reset button to restart game
+$('button').on('click', gameReset)
+
+function gameReset(evt){
+  $('#grid').children().addClass('card')
+  alert('Playing again, eh?')
+}
 
 //bonus: shuffle colors on reset
