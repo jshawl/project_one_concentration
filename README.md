@@ -1,7 +1,11 @@
 README.md is where I tracked my MVP progress, user stories, prioritization, etc.
 
+thomhouseholder/project_one_concentration
 
-Five user stories for my concentration project
+Project Status
+Game allows player to click cards and delivers match/no match status on every second click.  Functionality to take match cards off the table and return unmatched pairs still underway.
+
+User Stories, Current/Backlog/Icebox, and Status
 
 - Current
 As the admin, I want to present 16 face-down cards (eight pairs of matching cards)
