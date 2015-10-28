@@ -11,11 +11,13 @@ function flipCard(evt){
  }
 //compare two clicked cards. if background-colors are equal, alert('match')
  else if (answer[0]==answer[1]) {
-   console.log("a match")
+   console.log('a match')
+   alert('a match')
    answer.length=0
    } else {
 //not equal, alert('try again.')
-   console.log("not a match")
+   console.log('not a match')
+   alert('not a match')
    answer.length=0
 //change both to white
  }
@@ -27,6 +29,7 @@ $('button').on('click', gameReset)
 function gameReset(evt){
   $('#grid').children().addClass('card')
   console.log('Playing again? Good luck!')
+  alert('playing again? good luck!')
 }
 
 //bonus: shuffle colors on reset
