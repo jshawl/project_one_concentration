@@ -1,38 +1,25 @@
-
-var oldAnswerGlobal = null
-
 //card clickEvent
 $('.card').on('click', flipCard)
-
+answer=[]
 function flipCard(evt){
   $(this).toggleClass('card')
-    console.log('className= ' + this.className)
-  var answer = this.className
-    console.log('var answer= '+ answer)
-  oldAnswerGlobal='null'
-    console.log('oldAnswerGlobal= '+ oldAnswerGlobal)
-  if(oldAnswerGlobal !== null){
-    if(answer == oldAnswerGlobal){
-      console.log("Nice match!")
-    }else{
-      console.log("Not a match.")
-      //add toggle from white to color for indiv cards
-      // $(this).toggleClass('card')
-    }
-
+  console.log('className= ' + this.className)
+  answer.push(this.className)
+  console.log(answer)
+ if (answer.length<2) {
+   //second click
+ }
+//compare two clicked cards. if background-colors are equal, alert('match')
+ else if (answer[0]==answer[1]) {
+   console.log("a match")
+   answer.length=0
+   } else {
+//not equal, alert('try again.')
+   console.log("not a match")
+   answer.length=0
+//change both to white
+ }
 }
-}
-
-//compare two clicked cards. if background-colors are equal, alert('nice, next move.')  if not equal, alert('try again.') and change both back to white
-// if ((class of firstCardClicked)==(class of secondCardClicked)){
-//   alert('Nice match!')
-//   // and 'deactivate' cards (by removing clickEvent from those?)
-// } else {
-//   alert('Not a match. Try again.')
-//   // and add .card back to both cards.
-//   $('#grid').children(/*whatselector?*/).addClass('card')
-// }
-
 
 //reset button to restart game
 $('button').on('click', gameReset)
