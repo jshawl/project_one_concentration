@@ -24,9 +24,11 @@ As a player, I want to be able to reset the board to play again. -ok
 
 - Backlog
 As the game admin, I want the selected cards to stay face-up if they match so they
-are no longer part of the game.
+are no longer part of the game. -ok
 
-As the game admin, I want the selected cards to revert to face-down if they do not match.
+As the game admin, I want the selected cards to revert to face-down if they do not match. -ok
+
+As the game admin, I want to congratulate the player when the game has ended.
 
 Icebox
 As the game admin, I want to shuffle the cards when the reset button is clicked.
