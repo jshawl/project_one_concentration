@@ -1,10 +1,12 @@
 //card clickEvent
 $('.card').on('click', flipCard)
 answer=[]
+tile=[]
 function flipCard(evt){
   $(this).toggleClass('card')
   console.log('className= ' + this.className)
   answer.push(this.className)
+  tile.push(this)
   console.log(answer)
  if (answer.length<2) {
    //second click
@@ -14,12 +16,16 @@ function flipCard(evt){
    console.log('a match')
    alert('a match')
    answer.length=0
+   tile=[]
    } else {
 //not equal, alert('try again.')
    console.log('not a match')
    alert('not a match')
    answer.length=0
-//change both to white
+   //change both to white
+   $(tile[0]).addClass('card')
+   $(tile[1]).addClass('card')
+   tile=[]
  }
 }
 
