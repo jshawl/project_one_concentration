@@ -5,7 +5,7 @@ header{
   background-color: teal;
 }
 h1{
-  font-family: Arial;
+  font-family: Arial /* remember to provide fallback font incase Arial is unavailable*/;
   font-size: 20px;
 }
 p{
@@ -23,8 +23,7 @@ main {
   /*height?*/
   overflow: auto;
 }
-.blue{
-  background-color: blue;
+#grid > div {
   border: gray solid 1px;
   width:20%;
   height:40px;
@@ -33,83 +32,30 @@ main {
   margin-top:5px;
   margin-right:5px;
   padding-top:20px;
+}
+.blue{
+  background-color: blue;
 }
 .red{
   background-color:red;
-  border: gray solid 1px;
-  width:20%;
-  height:40px;
-  float:left;
-  text-align:center;
-  margin-top:5px;
-  margin-right:5px;
-  padding-top:20px;
 }
 .green{
   background-color:green;
-  border: gray solid 1px;
-  width:20%;
-  height:40px;
-  float:left;
-  text-align:center;
-  margin-top:5px;
-  margin-right:5px;
-  padding-top:20px;
 }
 .orange{
   background-color:orange;
-  border: gray solid 1px;
-  width:20%;
-  height:40px;
-  float:left;
-  text-align:center;
-  margin-top:5px;
-  margin-right:5px;
-  padding-top:20px;
 }
 .lime{
   background-color: lime;
-  border: gray solid 1px;
-  width:20%;
-  height:40px;
-  float:left;
-  text-align:center;
-  margin-top:5px;
-  margin-right:5px;
-  padding-top:20px;
 }
 .olive{
   background-color:olive;
-  border: gray solid 1px;
-  width:20%;
-  height:40px;
-  float:left;
-  text-align:center;
-  margin-top:5px;
-  margin-right:5px;
-  padding-top:20px;
 }
 .brown{
   background-color: brown;
-  border: gray solid 1px;
-  width:20%;
-  height:40px;
-  float:left;
-  text-align:center;
-  margin-top:5px;
-  margin-right:5px;
-  padding-top:20px;
 }
 .tan{
   background-color: tan;
-  border: gray solid 1px;
-  width:20%;
-  height:40px;
-  float:left;
-  text-align:center;
-  margin-top:5px;
-  margin-right:5px;
-  padding-top:20px;
 }
 .card{
   background-color:white;
